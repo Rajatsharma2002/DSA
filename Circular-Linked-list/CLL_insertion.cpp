@@ -14,6 +14,7 @@ void CLL_traversal(struct Node* head){
 	}while(ptr!=head);
 }
 
+
 //insertion at begining
 struct Node* insertatbeg(struct Node* head,int data){
 	struct Node* ptr=(struct Node*)malloc(sizeof(struct Node));
