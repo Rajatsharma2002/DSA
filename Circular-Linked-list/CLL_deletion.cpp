@@ -74,6 +74,7 @@ int main(){
 	struct Node* second=(struct Node*)malloc(sizeof(struct Node));
 	struct Node* third=(struct Node*)malloc(sizeof(struct Node));
 	struct Node* fourth=(struct Node*)malloc(sizeof(struct Node));
+	struct Node* fifth=(struct Node*)malloc(sizeof(struct Node));
 	
 	head->data=10;
 	head->next=second;
@@ -85,7 +86,10 @@ int main(){
 	third->next=fourth;
 	
 	fourth->data=40;
-	fourth->next=head;
+	fourth->next=fifth;
+	
+	fifth->data=50;
+	fifth->next=head;
 	
 	printf("Circular linked list before deletion : ");
 	CLL_traversal(head);
