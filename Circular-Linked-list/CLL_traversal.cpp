@@ -8,6 +8,7 @@ struct Node{
 
 void CLL_traversal(struct Node* head){
 	struct Node* ptr=head;
+	
 	do{
 		printf("%d ",ptr->data);
 		ptr=ptr->next;
