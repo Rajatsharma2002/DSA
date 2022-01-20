@@ -7,6 +7,12 @@ struct Stack{
 	int * arr;
 };
 
+void display(struct Stack* ptr){
+	for(int i=0;i<=ptr->top;i++){
+		printf("%d ",ptr->arr[i]);
+	}
+}
+
 void isEmpty(struct Stack* ptr){
 	if(ptr->top==-1){
 		printf("Stack is Empty");
@@ -22,12 +28,6 @@ void isFull(struct Stack* ptr){
 	}
 	else{
 		printf("Stack is Not Full");
-	}
-}
-
-void display(struct Stack* ptr){
-	for(int i=0;i<=ptr->top;i++){
-		printf("%d ",ptr->arr[i]);
 	}
 }
 
