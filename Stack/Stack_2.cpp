@@ -41,6 +41,7 @@ void push(struct Stack* ptr,int value){
 	}
 }
 
+
 int pop(struct Stack* ptr){
 	if(isEmpty(ptr)){
 		printf("Stack underflow");
