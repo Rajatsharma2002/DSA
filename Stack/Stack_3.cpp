@@ -79,6 +79,7 @@ int main(){
 	push(s,60);
 	
 	printf("Top = %d",s->arr[s->top]);
+	
 	printf("\nPopped %d From stack",pop(s));
 	printf("\nPopped %d From stack",pop(s));
 	
