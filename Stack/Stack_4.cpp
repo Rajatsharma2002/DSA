@@ -7,6 +7,7 @@ struct Stack{
 	int * arr;
 };
 
+// Time complexity O(1)
 int isEmpty(struct Stack* ptr){
 	if(ptr->top==-1){
 		return 1;
@@ -16,6 +17,7 @@ int isEmpty(struct Stack* ptr){
 	}
 }
 
+// Time complexity O(1)
 int isFull(struct Stack* ptr){
 	if(ptr->top==ptr->size-1){
 		return 1;
@@ -25,6 +27,7 @@ int isFull(struct Stack* ptr){
 	}
 }
 
+// Time complexity O(1)
 void push(struct Stack* ptr,int value){
 	if(isFull(ptr)){
 		printf("Stack overflow");
@@ -35,6 +38,7 @@ void push(struct Stack* ptr,int value){
 	}
 }
 
+// Time complexity O(1)
 int pop(struct Stack* ptr){
 	if(isEmpty(ptr)){
 		printf("Stack underflow");
@@ -47,6 +51,7 @@ int pop(struct Stack* ptr){
 	}
 }
 
+// Time complexity O(1)
 int peek(struct Stack* ptr,int i){
 	int n=ptr->top-i+1;
 	if(n<0){
@@ -58,10 +63,12 @@ int peek(struct Stack* ptr,int i){
 	}
 }
 
+// Time complexity O(1)
 int StackTop(struct Stack* ptr){
 	return ptr->arr[ptr->top];
 }
 
+// Time complexity O(1)
 int StackBottom(struct Stack* ptr){
 	return ptr->arr[0];
 }
