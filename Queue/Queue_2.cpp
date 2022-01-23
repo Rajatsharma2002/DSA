@@ -70,7 +70,7 @@ int dequeue(){
 }
 
 int main(){
-	
+	//insertion
 	enqueue(10);
 	enqueue(20);
 	enqueue(30);
@@ -79,6 +79,7 @@ int main(){
 	printf("\nQueue After insertion :\n");
 	display();
 	
+	//deletion
 	printf("\n\ndequeued element = %d",dequeue());
 	printf("\ndequeued element = %d\n",dequeue());
 	
