@@ -65,6 +65,7 @@ int dequeue(struct Queue* q){
 //	return a;
 //}
 
+
 int main(){
 	struct Queue* q=(struct Queue*)malloc(sizeof(struct Queue));
 	q->size=10;
