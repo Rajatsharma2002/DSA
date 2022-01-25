@@ -50,3 +50,8 @@ int main(){
 	quicksort(arr,0,n-1);
 	printarray(arr,n);
 }
+
+/*quick sort - time complexity worst case(when array is sorted)=O(n^2)
+                             best case(when pivot is at center)=O(nlogn)
+                             quick sort not stable
+                             quick sort is inplace algorithm*/
