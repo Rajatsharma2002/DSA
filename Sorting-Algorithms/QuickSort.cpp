@@ -53,5 +53,6 @@ int main(){
 
 /*quick sort - time complexity worst case(when array is sorted)=O(n^2)
                              best case(when pivot is at center)=O(nlogn)
+			     average case=O(nlogn)
                              quick sort not stable
                              quick sort is inplace algorithm*/
