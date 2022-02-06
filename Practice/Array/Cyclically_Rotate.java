@@ -1,7 +1,6 @@
 package DSA;
 import java.util.Scanner;
 
-
 public class Cyclically_Rotate {
 
 	static void printarray(int arr[],int n) {
